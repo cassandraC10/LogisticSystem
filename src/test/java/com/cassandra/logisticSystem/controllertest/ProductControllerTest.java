@@ -30,7 +30,7 @@ public class ProductControllerTest {
 
     @Test
     public void testGetAllProducts() throws Exception {
-        // Mock data
+
         List<Product> products = Arrays.asList(
                 new Product(1L, "Product 1", 10.0),
                 new Product(2L, "Product 2", 15.0)
